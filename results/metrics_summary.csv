@@ -1,0 +1,4 @@
+Model Name,Task,Evaluation Metrics,Interpretation
+Linear Regression,Regression (predict age),MSE=65.254; RMSE=8.078; R²=0.117,Lower MSE/RMSE is better; higher R² is better.
+Logistic Regression,Binary classification (disease label),Accuracy=0.885; Precision=0.839; Recall=0.929; F1=0.881,Balance correct predictions with missed positives and false alarms.
+K-Means,Unsupervised clustering,K=3; Silhouette=0.126,Higher silhouette generally suggests more separated clusters.
